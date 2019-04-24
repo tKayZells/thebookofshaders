@@ -11,6 +11,7 @@ install:
   - sudo make install
   - cd -
   - # Install glslViewer
+  - sudo apt-get install libglfw3-dev
   - git clone http://github.com/patriciogonzalezvivo/glslViewer ~/glslViewer
   - cd ~/glslViewer
   - make
