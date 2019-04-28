@@ -27,3 +27,9 @@ before_script:
   - #rm -rf 12 13 14 15 16 17 18 # ugly ...
 script:
   - make && [ -e book.pdf ]
+  - ls
+deploy:
+  provider: releases
+  api_key: $GH_REPO_TOKEN
+  file: "book.pdf"
+  skip_cleanup: true
