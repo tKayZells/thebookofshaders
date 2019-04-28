@@ -1,8 +1,6 @@
 language: python
 os: 
   - osx
-python:
-  - 2.7
 install:
   - brew install pandoc python2.7
   #- sudo apt-get install cmake xorg-dev libglu1-mesa-dev texlive-xetex texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended pandoc imagemagick
