@@ -4,7 +4,7 @@ os:
 install:
   # - brew install pandoc python2.7
   #- sudo apt-get install cmake xorg-dev libglu1-mesa-dev texlive-xetex texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended pandoc imagemagick
-  - # Install glfw
+  #- Install glfw
   - brew install glfw3
   #- git clone https://github.com/glfw/glfw.git ~/glfw
   #- cd ~/glfw
