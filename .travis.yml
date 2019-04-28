@@ -4,17 +4,19 @@ os:
 python:
   - 2.7
 install:
-  - sudo apt-get install cmake xorg-dev libglu1-mesa-dev texlive-xetex texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended pandoc imagemagick
+  - brew install pandoc python2.7
+  #- sudo apt-get install cmake xorg-dev libglu1-mesa-dev texlive-xetex texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended pandoc imagemagick
   - # Install glfw
-  - git clone https://github.com/glfw/glfw.git ~/glfw
-  - cd ~/glfw
-  - cmake .
-  - make
-  - sudo make install
-  - cd -
+  - brew install glfw3
+  #- git clone https://github.com/glfw/glfw.git ~/glfw
+  #- cd ~/glfw
+  #- cmake .
+  #- make
+  #- sudo make install
+  #- cd -
   - # Install glslViewer
-  - git clone http://github.com/patriciogonzalezvivo/glslViewer ~/glslViewer
-  - cd ~/glslViewer
+  - git clone http://github.com/patriciogonzalezvivo/glslViewer.git
+  - cd /glslViewer
   - make
   - sudo make install
   - cd -
