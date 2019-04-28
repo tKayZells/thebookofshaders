@@ -22,7 +22,7 @@ install:
   - cd -
 before_script:
   - #export DISPLAY=:99.0
-  - xvfb-run
+  - #xvfb-run
   - #sleep 3 # give xvfb some time to start
   - #rm -rf 12 13 14 15 16 17 18 # ugly ...
 script:
